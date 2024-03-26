@@ -1,0 +1,32 @@
+.row {
+    display: grid;
+    grid-template-columns: 5% 50% 45%;
+    cursor: pointer;
+    border: 1px solid #000;
+
+    &:not(:first-child) {
+        margin-top: -1px;
+    }
+}
+
+.rowChecked {
+    background-color: aqua;
+}
+
+.ceil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    line-height: 1;
+
+    &:not(:last-child) {
+        border-right: 1px solid #000;
+    }
+
+    input {
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+    }
+}

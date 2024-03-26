@@ -1,0 +1,79 @@
+.root {
+    width: 30%;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.allCheck {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.add {
+    background-color: green;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.del {
+    background-color: red;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.formAdd {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+    padding: 10px;
+
+    input {
+        padding: 10px;
+    }
+}
+
+.addFormBtn {
+    width: fit-content;
+    background-color: green;
+    padding: 15px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.formRed {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+    padding: 10px;
+
+    input {
+        padding: 10px;
+    }
+}
+
+.red {
+    background-color: yellowgreen;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
